@@ -1,7 +1,7 @@
 <template>
   <div id="uvindex">
-    <p>highlights: {{ highlights }}</p>
-    <p>UV Index: {{ uvIndex }}</p>
+    <!-- <p>highlights: {{ highlights }}</p>
+    <p>UV Index: {{ uvIndex }}</p> -->
   </div>
 </template>
 
