@@ -1,0 +1,97 @@
+header, main, footer {
+	padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+	header, main, footer {
+		padding-left: 0;
+	}
+}
+
+h1, h2, h3, h4, h5, h6 {
+   margin-top: 0 !important;
+   margin-bottom: 0 !important;
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+   border-bottom: 1px solid #5474fb !important;
+   -webkit-box-shadow: 0 1px 0 0 #5474fb !important;
+   box-shadow: 0 1px 0 0 #5474fb !important;
+}
+
+input.valid:not([type]), input.valid:not([type]):focus, input.valid[type=text]:not(.browser-default), input.valid[type=text]:not(.browser-default):focus, input.valid[type=password]:not(.browser-default), input.valid[type=password]:not(.browser-default):focus, input.valid[type=email]:not(.browser-default), input.valid[type=email]:not(.browser-default):focus, input.valid[type=url]:not(.browser-default), input.valid[type=url]:not(.browser-default):focus, input.valid[type=time]:not(.browser-default), input.valid[type=time]:not(.browser-default):focus, input.valid[type=date]:not(.browser-default), input.valid[type=date]:not(.browser-default):focus, input.valid[type=datetime]:not(.browser-default), input.valid[type=datetime]:not(.browser-default):focus, input.valid[type=datetime-local]:not(.browser-default), input.valid[type=datetime-local]:not(.browser-default):focus, input.valid[type=tel]:not(.browser-default), input.valid[type=tel]:not(.browser-default):focus, input.valid[type=number]:not(.browser-default), input.valid[type=number]:not(.browser-default):focus, input.valid[type=search]:not(.browser-default), input.valid[type=search]:not(.browser-default):focus, textarea.materialize-textarea.valid, textarea.materialize-textarea.valid:focus, .select-wrapper.valid > input.select-dropdown {
+   border-bottom: 1px solid #ffcc22 !important;
+   -webkit-box-shadow: 0 1px 0 0 #ffcc22 !important;
+   box-shadow: 0 1px 0 0 #ffcc22 !important;
+}
+
+.temp_h1 {
+   color: rgb(84, 116, 251);
+   margin-bottom: 0;
+}
+.material-icons.yellow-text {
+   color: #ffcc22 !important;
+}
+
+.material-icons.blue-text {
+  color: rgb(84, 116, 251) !important;
+}
+
+.location {
+   font-size: 4rem !important;
+}
+
+.material-icons.yellow-text,
+.material-icons.blue-text {
+   vertical-align: middle !important;
+}
+
+#sidenav-1 > div.row > div > div > div > h5:nth-child(2) {
+   margin-top: -50px !important;
+}
+
+.infoText {
+   color: #999 !important; 
+   font-size: .9rem;
+}
+
+#sidenav-1 > div.row > div > div:nth-child(3) > div > div {
+    margin-left: -12px;
+}
+
+#sidenav-1 > div.row > div > div:nth-child(3) > div > div,
+.svg.calendar {
+   display: inline-block;
+   vertical-align: middle;
+}
+
+#sidenav-1 > div.row > div > div:nth-child(1) > div {
+   margin-left: 25px;
+}
+
+#sidenav-1 > div.row > div > div:nth-child(4) {
+   margin-left: 5px;
+}
+
+i.large.material-icons.blue-text.location {
+   display: inline-block;
+}
+
+#sidenav-1 > div.row > div > div:nth-child(4) > div > div {
+   display: inline-block;
+   vertical-align: middle;
+}
+
+sup {
+   line-height:1px; 
+}
+
+sup::before {
+   content: 'F';
+   font-size: 1rem;
+
+}
+
+svg:first-child {
+   height: 400px !important;
+}
