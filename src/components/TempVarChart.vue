@@ -4,7 +4,6 @@
             <fusioncharts 
             :type="tempChartData.chart.type" 
             :dataEmptyMessage="tempChartData.chart.empty"
-            :height="tempChartData.chart.height"
             :width="tempChartData.chart.width"
             :dataFormat="tempChartData.chart.dataFormat"
             :dataSource="tempChartData"
@@ -14,6 +13,7 @@
 </template>
 
 <script>
+import Vue from 'Vue'
 export default {
   props: ["tempVar"],
   components: {},
@@ -24,7 +24,6 @@ export default {
         chart: {
         type: 'spline',
         width: '100%',
-        height: '95%',
         dataFormat: 'json',
         empty:"i-https://i.postimg.cc/R0QCk9vV/Rolling-0-9s-99px.gif",
         caption: 'Hourly Temperature',
@@ -75,7 +74,7 @@ export default {
    },
   },
  mounted: function() {
-   this.setChartData()
+   Vue.nextTick(this.setChartData)
  },
  beforeUpdate: function() {
    this.setChartData()
