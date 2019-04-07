@@ -13,7 +13,6 @@
 </template>
 
 <script>
-import Vue from 'Vue'
 export default {
   props: ["tempVar"],
   components: {},
@@ -74,7 +73,7 @@ export default {
    },
   },
  mounted: function() {
-   Vue.nextTick(this.setChartData)
+   this.setChartData()
  },
  beforeUpdate: function() {
    this.setChartData()
