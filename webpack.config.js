@@ -50,7 +50,7 @@ module.exports = {
    noInfo: true,
    overlay: true,
    host: 'localhost',
-   port: 8080
+   port: process.env.PORT || 8080
  },
  performance: {
    hints: false
