@@ -1,1 +1,1 @@
-web: NODE_ENV=production webpack --progress --hide-modules -p $PORT
+web: npm start
