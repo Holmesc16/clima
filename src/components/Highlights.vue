@@ -1,9 +1,15 @@
 <template>
-  <div>
+<div class="row">
+  <div class="col s12 m4 l4">
     <uv-index :highlights="highlights"></uv-index>
+  </div>
+  <div class="col s12 m4 l4">  
     <visibility :highlights="highlights"></visibility>
+  </div>
+  <div class="col s12 m4 l4">
     <wind-status :highlights="highlights"></wind-status>
   </div>
+</div>
 </template>
 
 <script>

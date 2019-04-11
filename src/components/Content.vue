@@ -1,8 +1,12 @@
 <template>
- <div style="position: relative;">
-     <temp-var-chart :tempVar="tempVar"></temp-var-chart>
-     <today-highlights :highlights="highlights"></today-highlights>
- </div>
+ <div>
+  <div class="row">
+    <div class="col s12">
+        <temp-var-chart :tempVar="tempVar"></temp-var-chart>
+    </div>
+    </div>
+        <today-highlights :highlights="highlights"></today-highlights>
+  </div>
 </template>
 
 <script>

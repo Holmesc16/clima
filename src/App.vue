@@ -56,7 +56,7 @@
           <div class="col 12">
                   <img src="./assets/calendar.svg" class="svg calendar" width="92" alt="calendar">
                   <div>
-                    <h5>{{ currentWeather.time }}</h5>
+                    <h6>{{ currentWeather.time }}</h6>
                   </div>
             </div>
           </div>
@@ -64,7 +64,7 @@
               <div class="col 12">                
                   <i class="large material-icons blue-text location">location_on</i>
                   <div class="locationInfo">
-                    <h5>{{ currentWeather.full_location }}</h5>
+                    <h6>{{ currentWeather.full_location }}</h6>
                     <h6 class="infoText">Latitude: {{ lat }}</h6>
                     <h6 class="infoText">Longitude: {{ lng }}</h6>
                   </div>
@@ -77,7 +77,7 @@
 
     <main>
         <div class="row">
-          <div class="col s2 show-on-medium-and-up"></div>
+          <div class="col s2"><!--show-on-medium-and-up--></div>
           <div class="col s10">
           <dashboard :tempVar="tempVar" :highlights="highlights"></dashboard>
         </div>
@@ -495,7 +495,7 @@
   }
 
   .sidenav {
-    width: 430px;
+    width: 340px;
   }
 
   #sidenav-1>div {
@@ -532,6 +532,10 @@
   #sidenav-1>div>label {
     color: #5474fb;
   }
+
+  #sidenav-1 > div.row > div > div:nth-child(3) > div > div > h6 {
+    font-size: 18px;
+}
 
   @media only screen and (max-width : 992px) {
 

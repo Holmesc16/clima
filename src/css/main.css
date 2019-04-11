@@ -94,4 +94,9 @@ sup::before {
 
 svg:first-child {
    height: 400px !important;
+   z-index: -1;
+}
+
+span.fusioncharts-container {
+   margin-left: -70px !important;
 }
