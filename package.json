@@ -18,7 +18,6 @@
     "fusioncharts": "^3.13.4",
     "moment": "^2.22.2",
     "moment-timezone": "^0.5.21",
-    "react-pose": "^4.0.8",
     "vue": "^2.6.10",
     "vue-fusioncharts": "^2.0.4"
   },
