@@ -2,6 +2,9 @@
   "name": "clima",
   "description": "A Vue.js Interactive Weather Dashboard. Made with Node, Webpack, FusionCharts, and DarkSky API",
   "version": "1.0.0",
+  "engines": {
+    "node": "10.14.0"
+  },
   "author": "Cade Holmes <holmesc16@gmail.com>",
   "license": "MIT",
   "private": true,
