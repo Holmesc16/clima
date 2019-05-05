@@ -5,6 +5,7 @@
   "engines": {
     "node": "10.14.0"
   },
+  "ignore-scripts":false,
   "author": "Cade Holmes <holmesc16@gmail.com>",
   "license": "MIT",
   "private": true,
