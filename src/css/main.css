@@ -102,94 +102,94 @@ span.fusioncharts-container {
 }
 
 body {
-   font-family: 'Avenir', Arial, Helvetica, sans-serif;
-   font-weight: 400;
-   width: 100%;
-   margin: 0;
-   font-size: 1.6rem;
- }
+    font-family: 'Avenir', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    width: 100%;
+    margin: 0;
+    font-size: 1.6rem;
+  }
 
- header,
- main,
- footer {
-   padding-left: 300px;
- }
+  header,
+  main,
+  footer {
+    padding-left: 300px;
+  }
 
- nav {
-   background: white !important;
-   height: 128px;
-   line-height: 64px;
-   color: #5474fb !important;
-   box-shadow: none;
- }
+  nav {
+    background: white !important;
+    height: 128px;
+    line-height: 64px;
+    color: #5474fb !important;
+    box-shadow: none;
+  }
 
- .sidenav {
-   width: 340px;
- }
+  .sidenav {
+    width: 340px;
+  }
 
- #sidenav-1>div {
-   margin-left: 15px;
-   display: flex;
- }
+  #sidenav-1>div {
+    margin-left: 15px;
+    display: flex;
+  }
 
- div.logo {
-   position: fixed;
-   right: -5px;
- }
+  div.logo {
+    position: fixed;
+    right: -5px;
+  }
 
- div.logo>a>span {
-   margin-right: 12px;
- }
+  div.logo>a>span {
+    margin-right: 12px;
+  }
 
- img#logo {
-   width: 128px;
-   max-width: 128px;
- }
+  img#logo {
+    width: 128px;
+    max-width: 128px;
+  }
 
- #btn-go {
-   background-color: rgb(84, 116, 251);
-   padding: 22px 19px;
-   margin-left: 3px;
-   margin-right: 6px;
-   line-height: 3px;
- }
+  #btn-go {
+    background-color: rgb(84, 116, 251);
+    padding: 22px 19px;
+    margin-left: 3px;
+    margin-right: 6px;
+    line-height: 3px;
+  }
 
- #icon_prefix {
-   width: calc(85% - 3rem)
- }
+  #icon_prefix {
+    width: calc(85% - 3rem)
+  }
 
- #sidenav-1>div>label {
-   color: #5474fb;
- }
+  #sidenav-1>div>label {
+    color: #5474fb;
+  }
 
- #sidenav-1 > div.row > div > div:nth-child(3) > div > div > h6 {
-   font-size: 18px;
+  #sidenav-1 > div.row > div > div:nth-child(3) > div > div > h6 {
+    font-size: 18px;
 }
 
- @media only screen and (max-width : 992px) {
+  @media only screen and (max-width : 992px) {
 
-   header,
-   main,
-   footer {
-     padding-left: 0;
-   }
+    header,
+    main,
+    footer {
+      padding-left: 0;
+    }
 
-   div>a>span {
-     display: none;
-   }
+    div>a>span {
+      display: none;
+    }
 
- }
+  }
 
- @media only screen and (min-width: 201px) {
+  @media only screen and (min-width: 201px) {
 
-   nav,
-   nav .nav-wrapper i,
-   nav a.sidenav-trigger,
-   nav a.sidenav-trigger i {
-     height: 128px;
-     line-height: 128px;
-     color: #5474fb !important;
-   }
+    nav,
+    nav .nav-wrapper i,
+    nav a.sidenav-trigger,
+    nav a.sidenav-trigger i {
+      height: 128px;
+      line-height: 128px;
+      color: #5474fb !important;
+    }
 
 
- }
+  }

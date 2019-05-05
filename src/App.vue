@@ -472,7 +472,7 @@
 </script>
 
 <style>
-  /* body {
+  body {
     font-family: 'Avenir', Arial, Helvetica, sans-serif;
     font-weight: 400;
     width: 100%;
@@ -563,5 +563,5 @@
     }
 
 
-  } */
+  }
 </style>
