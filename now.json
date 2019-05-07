@@ -1,7 +1,6 @@
 {
-    "version": "1",
+    "version": 2,
     "name": "clima",
     "public": true,
     "alias":["clima"]
-
   }

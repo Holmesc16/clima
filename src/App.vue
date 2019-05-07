@@ -93,6 +93,7 @@
   let axios = require('axios')
   let moment = require('moment')
   let momentTimezone = require('moment-timezone')
+  const translate = require('translate')
 
   export default {
     name: 'app',
@@ -467,6 +468,7 @@
       }
     },
     computed: {
+      
     }
   }
 </script>

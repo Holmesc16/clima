@@ -17,6 +17,7 @@ FusionTheme(FusionCharts);
 // Globally register the components for project-wide use
 Vue.use(VueFusionCharts, FusionCharts);
 
+
 // Instantiate the Vue instance that controls the application
 new Vue({
  el: '#app',
