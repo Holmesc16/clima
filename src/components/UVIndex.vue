@@ -4,8 +4,8 @@
        :type="type"
        :width="width"
        :height="height"
-       :containerbackgroundopacity="containerbackgroundopacity"
-       :dataformat="dataformat"
+       :containerbackgroundopacity="0"
+       :dataformat="dataFormat"
        :datasource="datasource"
           ></fusioncharts>
   </div>
@@ -20,7 +20,7 @@ export default {
         type: 'angulargauge',
         renderAt: 'chart-container',
         width: '350',
-        height: '200',
+        height: '275',
         dataFormat: 'json',
         datasource: {
           chart: {
@@ -31,7 +31,6 @@ export default {
           upperLimit: "15",
           lowerLimitDisplay: "0",
           upperLimitDisplay: "15",
-          showValue: "1",
           theme: "fusion",
           baseFont: "'Avenir', Arial, Sans-Serif",
           bgAlpha: "0",
@@ -55,12 +54,12 @@ export default {
             {
               minvalue: "0",
               maxvalue: this.highlights.uvIndex.toString(),
-              code: "#7DA9E0"
+              code: "#ffcc22"
             },
             {
               minvalue: this.highlights.uvIndex.toString(),
               maxvalue: "15",
-              code: "#D8EDFF"
+              code: "#fff022"
             }
           ]
         },
@@ -71,9 +70,9 @@ export default {
                 {
                   id: "val-label",
                   type: "text",
-                  text: this.highlights.uvIndex.toString(),
+                   text: this.highlights.uvIndex.toString(),
                   fontSize: "20",
-                  font: "Source Sans Pro",
+                  font: "'Josefin Sans', Helvetica, Arial",
                   fontBold: "1",
                   fillcolor: "#212529",
                   x: "$gaugeCenterX",

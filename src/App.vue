@@ -480,6 +480,7 @@
     width: 100%;
     margin: 0;
     font-size: 1.6rem;
+    overflow-y:hidden;
   }
 
   header,
@@ -536,7 +537,7 @@
   }
 
   #sidenav-1 > div.row > div > div:nth-child(3) > div > div > h6 {
-    font-size: 18px;
+    font-size: 70%;
 }
 
   @media only screen and (max-width : 992px) {
