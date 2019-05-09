@@ -4,8 +4,13 @@
        :type="type"
        :width="width"
        :height="height"
+<<<<<<< HEAD
        :containerbackgroundopacity="containerbackgroundopacity"
        :dataformat="dataformat"
+=======
+       :containerbackgroundopacity="0"
+       :dataformat="dataFormat"
+>>>>>>> f86c26b5d7b536718a7afeb0c0a388a20a33aa89
        :datasource="datasource"
           ></fusioncharts>
   </div>
@@ -20,7 +25,11 @@ export default {
         type: 'angulargauge',
         renderAt: 'chart-container',
         width: '350',
+<<<<<<< HEAD
         height: '200',
+=======
+        height: '275',
+>>>>>>> f86c26b5d7b536718a7afeb0c0a388a20a33aa89
         dataFormat: 'json',
         datasource: {
           chart: {
@@ -31,7 +40,10 @@ export default {
           upperLimit: "15",
           lowerLimitDisplay: "0",
           upperLimitDisplay: "15",
+<<<<<<< HEAD
           showValue: "1",
+=======
+>>>>>>> f86c26b5d7b536718a7afeb0c0a388a20a33aa89
           theme: "fusion",
           baseFont: "'Avenir', Arial, Sans-Serif",
           bgAlpha: "0",
@@ -55,12 +67,20 @@ export default {
             {
               minvalue: "0",
               maxvalue: this.highlights.uvIndex.toString(),
+<<<<<<< HEAD
               code: "#7DA9E0"
+=======
+              code: "#ffcc22"
+>>>>>>> f86c26b5d7b536718a7afeb0c0a388a20a33aa89
             },
             {
               minvalue: this.highlights.uvIndex.toString(),
               maxvalue: "15",
+<<<<<<< HEAD
               code: "#D8EDFF"
+=======
+              code: "#fff022"
+>>>>>>> f86c26b5d7b536718a7afeb0c0a388a20a33aa89
             }
           ]
         },
@@ -71,9 +91,15 @@ export default {
                 {
                   id: "val-label",
                   type: "text",
+<<<<<<< HEAD
                   text: this.highlights.uvIndex.toString(),
                   fontSize: "20",
                   font: "Source Sans Pro",
+=======
+                   text: this.highlights.uvIndex.toString(),
+                  fontSize: "20",
+                  font: "'Josefin Sans', Helvetica, Arial",
+>>>>>>> f86c26b5d7b536718a7afeb0c0a388a20a33aa89
                   fontBold: "1",
                   fillcolor: "#212529",
                   x: "$gaugeCenterX",
